@@ -1,0 +1,15 @@
+{
+  "name": "breadpoets-static-gen",
+  "version": "1.0.0",
+  "description": "Static site generator for Breadpoets.org",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node generate.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "handlebars": "^4.7.8"
+  }
+}

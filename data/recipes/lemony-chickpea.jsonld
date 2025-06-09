@@ -1,0 +1,31 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Lemony Chickpea Stir-fry",
+  "headline": "lemony chickpea stir-fry",
+  "slug": "lemony-chickpea",
+  "author": null,
+  "sourceOrganization": {
+    "@type": "Organization",
+    "name": "101 Cookbooks"
+  },
+  "url": "http://www.101cookbooks.com/archives/lemony-chickpea-stirfry-recipe.html",
+  "image": null,
+  "featuredImage": "lemony_chickpea.jpg",
+  "recipeInstructions": [
+    "First the chickpeas, because we want them to become",
+    "little crispy firecrackers,",
+    "we want for them a snack-food addictiveness",
+    "that entices plump fingers into the pot.",
+    "Then clear the way for tofu, give it room to breathe",
+    "and time to brown, annointing it with oil, saying prayers",
+    "to appease the gods of nonstick.",
+    "Now it's all downhill, onion and squash and tight curls of kale,",
+    "just coasting, lemon-zest-boosting,",
+    "lemon-juice-sluicing past the finish line,",
+    "an easy victory.",
+    "And as we all know,",
+    "victory is sweet."
+  ],
+  "pageTitle": "recipes in verse: lemony chickpea stir-fry"
+}
