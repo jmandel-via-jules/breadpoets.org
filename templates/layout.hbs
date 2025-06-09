@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>{{pageTitle}}</title>
+<link rel="stylesheet" type="text/css" href="bps.css">
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+
+<div id="frameLeft">
+  {{#if featuredImage}}
+  <img src="{{featuredImage}}" alt="{{headline}}">
+  {{else}}
+  <img src="bread1.gif" alt="bread poets society">
+  {{/if}}
+  <table class="left"><tr><td>
+  <p class="left">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <em>about</em>
+  <br>
+  <a href="why.html">why?</a><br>
+
+  <p class="left">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <em>recipes</em>
+  <br>
+  {{#each recipes}}
+  <a href="{{this.slug}}.html">{{this.headline}}</a><br>
+  {{/each}}
+  </td></tr></table>
+</div>
+
+<div id="frameTop">
+  <a href="index.html"><img src="bps-logo.gif" border="0" alt="The Bread Poets' Society: recipes in verse"></a>
+</div>
+
+<div id="main">
+  {{{body}}}
+</div>
+
+</body>
+</html>

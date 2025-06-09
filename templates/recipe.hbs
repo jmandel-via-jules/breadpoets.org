@@ -1,0 +1,49 @@
+<p align="center">
+<table width=400>
+<tr><td>
+  {{#if name}}
+  <p class="ptitle">
+  <br>
+  {{#if url}}
+  "<a href="{{url}}">{{name}}</a>"
+  {{else}}
+  "{{name}}"
+  {{/if}}
+  </p>
+  {{/if}}
+
+  {{#if image}}
+  <p class="ctitle">
+    {{#if url}}
+      "<a href="{{url}}">{{headline}}</a>"<br>
+      <img src="{{image}}" alt="{{headline}}">
+    {{else}}
+      {{headline}}<br>
+      <img src="{{image}}" alt="{{headline}}">
+    {{/if}}
+  </p>
+  {{/if}}
+
+  {{#if recipeInstructions}}
+  <p class="main">
+  <br>
+  {{#each recipeInstructions}}
+  {{this}}<br>
+  {{/each}}
+  <br>
+  </p>
+  {{/if}}
+
+  {{#if text}}
+  <p class="main">
+  <br>
+  {{{text}}}
+  <br>
+  </p>
+  {{/if}}
+
+  {{#if author.name}}
+  <p class="small">- {{author.name}}</p>
+  {{/if}}
+</td></tr>
+</table>

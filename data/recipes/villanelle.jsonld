@@ -1,0 +1,17 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "CreativeWork",
+  "name": "The Villanelle",
+  "headline": "the villanelle",
+  "slug": "villanelle",
+  "author": null,
+  "sourceOrganization": {
+    "@type": "Organization",
+    "name": "Cat and Girl"
+  },
+  "url": "http://catandgirl.com/?p=728",
+  "image": "images/villanelle.gif",
+  "featuredImage": null,
+  "text": null,
+  "pageTitle": "recipes in verse: the villanelle"
+}
